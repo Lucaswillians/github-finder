@@ -1,7 +1,7 @@
 GitHub Finder
 
 
-Este é um aplicativo simples desenvolvido com Vite.js e React.js com TypeScript para buscar e exibir informações dos usuários do GitHub, incluindo sua localização, seguidores e quantos usuários eles seguem.
+Este é um aplicativo simples desenvolvido com Vite.js e React.ts e TypeScript para buscar e exibir informações dos usuários do GitHub, incluindo sua localização, seguidores e quantos usuários eles seguem.
 
 Funcionalidades
 - Busca de Usuários: Digite o nome de usuário do GitHub na barra de busca para obter informações detalhadas.
