@@ -1,0 +1,61 @@
+.user {
+  background-color: black;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 1.2rem;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff) 1;
+  animation: gradient-animation 4s linear infinite;
+}
+
+.user img {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #00ffff;
+  border-radius: 50%;
+}
+
+.location { 
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.location svg {
+  fill: aqua;
+  font-size: 1.5rem;
+}
+
+.location span {
+  color:aqua;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats div {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.stats div:first-child {
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.stats .number {
+  background-color: black;
+  padding: .2rem .4rem;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff) 1;
+}
+
